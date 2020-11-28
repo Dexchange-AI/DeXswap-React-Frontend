@@ -1,0 +1,53 @@
+.App{
+    transform: translate3d(-50%, -50%, 0);
+    box-shadow: 2px 8px 29px -14px rgba(79, 74, 255, 0.43);
+    -webkit-box-shadow: 2px 8px 29px -14px rgba(79, 74, 255, 0.43);
+    -moz-box-shadow: 2px 8px 29px -14px rgba(79, 74, 255, 0.43);
+    border-radius: 12px;
+    padding: 30px;
+    border-top: 5px solid #2C86F3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.App form {
+    display: flex;
+    align-items: center;
+}
+
+.App .message{
+    text-align: center;
+    background: lightgreen;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #3a3a3a;
+}
+
+.arrow{
+    margin: 0 20px;
+}
+.MuiButton-root{
+    background: #2C86F3!important;
+    color: #fff!important;
+}
+.errorMessage{
+    background: #ff7675;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.inputParent{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.swapInput{
+    border: 1px solid #4a4a4a;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0 5px;
+}
